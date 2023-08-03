@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-container {
+  background-color: darkred;
+  border-color: #555555;
+}
+
+h2 {
+  font-weight: 300;
+  border: solid;
+  border-style: groove;
+  padding: 20px 20px;
+  margin: 0px 20px;
+}
+
+#toggleDarkMode {
+    cursor: pointer;
+}

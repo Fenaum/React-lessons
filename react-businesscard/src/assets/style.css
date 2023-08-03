@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: gray;
+  margin: 0;
+  background: #282d35;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  margin-bottom: ;
+}
+.profile-photo {
+  width: 38vh;
+  height: 40vh;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.username {
+  display: flex;
+  width: 178.065px;
+  height: 25.806px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.positionTitle {
+  margin-top: 30px;
+  width: 178.065px;
+  height: 25.806px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.githubLink {
+    text-align: center
+}
